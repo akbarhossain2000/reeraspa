@@ -1,0 +1,181 @@
+/**
+*	Theme Name: Reera Spa
+*	Theme URI: http://reera-spa.com
+*	Author: Deelko
+*	Author URI: http://deelko.com
+*	Version: 1.1.0
+**/
+
+
+.beauty-features .key-features .feature-box a.serviceid.active, .beauty-features .key-features .feature-box a.serviceid.active .icon{
+    color: #f2d654;
+}
+
+#pvat{
+	margin: 0;
+	padding: 0;
+}
+
+#pvat span {
+	float: right;
+}
+
+/*==== Footer Menu ====*/
+.menu-reerafooter-container{}
+.menu-reerafooter-container ul{}
+.menu-reerafooter-container ul li{
+	border-bottom: 1px dashed #f9f9f9;
+	padding: 5px 0px;
+}
+.menu-reerafooter-container ul li:first-child{
+	padding-top: 0px;
+}.menu-reerafooter-container ul li:last-child{
+	border-bottom: none;
+}
+
+.menu-reerafooter-container ul.menu li a{
+	display: block;
+	color: #FFFFD3;
+}
+.menu-reerafooter-container ul.menu li a:hover{
+	color: #f254b1;
+}
+
+
+/*==== Service Page ====*/
+.text figure.image {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	float: right;
+}
+.svcon p{
+	text-align: justify;
+}
+.braddress {
+	color: #000;
+	font-size: 18px;
+	font-weight: 700;
+}
+.brimcon p{
+	text-align: justify;
+	color: #000;
+	font-size: 16px;
+}
+
+/*==== pagination =====*/
+.theme-pagination li span.dots{
+	position: relative;
+	display: block;
+	line-height: 24px;
+	padding: 8px 13px;
+	font-size: 14px;
+	min-width: 40px;
+	border: 1px solid #5a5a5a;
+	color: #ffffff;
+	background: #f254b1;
+	transition: all 500ms ease;
+	-webkit-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+}
+
+.theme-pagination li span.current, .theme-pagination li span.dots:hover {
+	position: relative;
+	display: block;
+	line-height: 24px;
+	padding: 8px 13px;
+	font-size: 14px;
+	min-width: 40px;
+	border: 1px solid #5a5a5a;
+	color: #ffffff;
+	background: #f254b1;
+	opacity: 0.75;
+	transition: all 500ms ease;
+	-webkit-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+}
+
+.pricing-section.style-one #pagination ul li {
+	position: relative;
+	padding: 0px 0px;
+	border-bottom: none;
+	font-style: normal;
+}
+
+.post-text .accordion-box .acc-btn {
+	padding-left: 20px;
+}
+
+
+/* .comment-form .form-submit{
+	position: relative;
+	margin-bottom: 20px;
+	float: right;
+}
+.comment-form .form-submit .submit:hover{
+	background: #f254b1;
+}
+
+
+.comment-form .form-submit input[type="submit"] {
+	position: relative;
+	display: inline-block;
+	background: #222a33;
+	color: #ffffff;
+	padding: 8px 30px;
+	line-height: 24px;
+	font-size: 14px;
+	font-weight: 500;
+}
+
+.comment-form .form-submit .submit {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	position: relative;
+	-webkit-transition-property: color;
+	transition-property: color;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+} */
+
+.error{
+	color: black;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.error .error-icon i{
+	color: #f254b1;
+	font-size: 100px;
+	margin-bottom: 15px;
+}
+
+.error-page {
+    margin: 100px 0;
+}
+
+.error h1.err {
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.error h3.esmrr {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 400;
+    color: #535353;
+}
